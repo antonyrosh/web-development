@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOD</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="icon" href="favicon.ico">
+    <script defer src="https://kit.fontawesome.com/4f70e7aab.js" crossorigin="anonymous"></script>
+    <style>
+        .card img {
+            height: 150px;
+            object-fit: cover;
+        }
+        header {
+            background-color: #17a2b8;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            color: white;
+        }
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://via.placeholder.com/500x300" alt="Placeholder Image" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2>Source of All Positive Things</h2>
+                    <p>Happiest mind receives good deeds</p>
+                    <footer class="blockquote-footer">GOD</footer>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white py-5">
+        <div class="container">
+            <h1 class="text-center mb-4">Services</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center p-3">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Blessings">
+                        <div class="card-body">
+                            <h5 class="card-title">Blessings</h5>
+                            <i class="fas fa-hands"></i>
+                            <p class="card-text">I am the only one, the mega one.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center p-3">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Mentoring">
+                        <div class="card-body">
+                            <h5 class="card-title">Mentoring</h5>
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <p class="card-text">I am the only one, the mega one.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center p-3">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Empowering Good Qualities">
+                        <div class="card-body">
+                            <h5 class="card-title">Empowering Good Qualities</h5>
+                            <i class="fas fa-heart"></i>
+                            <p class="card-text">I am the only one, the mega one.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="card text-center p-3">
+                        <!-- Additional content can be added here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGaWflM9fT7p9j7gWV1wQkmTrK" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+rSIfEGzjWv/E49z43fQ3fGzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+</body>
+</html>
